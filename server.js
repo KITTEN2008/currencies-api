@@ -24,14 +24,14 @@ app.use(express.json());
 // ===========================================
 // 🔧 НАСТРОЙКА GOOGLE TABLES
 // ===========================================
-const SPREADSHEET_ID = 'ваш_id_таблицы_здесь'; // ⚠️ ВСТАВЬТЕ ВАШ ID!
+const SPREADSHEET_ID = 'https://docs.google.com/spreadsheets/d/1nAoqnwxeWUe45Bk7l4xOe-m_YTMMm7hoIVTZfggJwVU/edit?usp=sharing'; // ⚠️ ВСТАВЬТЕ ВАШ ID!
 const sheets = google.sheets({ version: 'v4', auth: null });
 
 // ===========================================
 // 🔐 НАСТРОЙКИ БЕЗОПАСНОСТИ
 // ===========================================
 const JWT_SECRET = process.env.JWT_SECRET || 'jad_bank_super_secret_key_2024';
-const ADMIN_KEY = process.env.ADMIN_KEY || 'admin_super_key_123';
+const ADMIN_KEY = process.env.ADMIN_KEY || 'srv-d66626jh46gs73ahe0kg';
 
 // ===========================================
 // 📥 ФУНКЦИИ ДЛЯ РАБОТЫ С ТАБЛИЦАМИ (ЧТЕНИЕ)
