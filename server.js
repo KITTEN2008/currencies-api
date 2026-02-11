@@ -28,6 +28,7 @@ async function initializeCurrencies() {
           rates: {
             "IO": 3,
             "RUB": 150
+            "GHY": 12.5
           }
         },
         {
@@ -48,6 +49,16 @@ async function initializeCurrencies() {
           rates: {
             "JDC": 0.0067,
             "IO": 0.02
+          }
+        },
+        {
+          id: 4,
+          code: "GHY",
+          name: "Расфер",
+          symbol: "©",
+          rates: {
+            "RUB": 12,
+            "JDC": 0.08
           }
         }
       ],
