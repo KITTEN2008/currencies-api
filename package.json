@@ -1,7 +1,7 @@
 {
   "name": "currencies-api",
-  "version": "1.0.0",
-  "description": "API для управления кастомными валютами",
+  "version": "1.0.1",
+  "description": "API для управления валютами",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["api", "currencies", "exchange", "custom-money"],
-  "author": "Ваше Имя",
+  "author": "KITTEN2008",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
